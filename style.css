@@ -7,6 +7,8 @@
     font-family: 'Space Mono';
 }
 
+
+
 h4{
     margin-top: 1.5rem;
     margin-left: 2rem;
@@ -53,11 +55,9 @@ button{
 }
 
 .footer{
+    margin-top:12em;
     color:grey;
-    position: absolute;
-    bottom: 3.5%;
-    left:40%;
-    text-align: center;
+    text-align: center;    
 }
 
 .footer a{
@@ -67,10 +67,18 @@ button{
 }
 
 @media only screen and (max-width:576px){
+    *{margin:0}
     .flex-container{
         flex-direction: column;
     }
+    img{
+        width:12.5em;
+    }
     .error-desc h1{
         width: 8em;
+    }
+    .footer{
+        margin-top: 3em;
+        font-size: 75%;
     }
 }
